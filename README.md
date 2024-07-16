@@ -30,6 +30,14 @@ The user functionalities include:
 4. Watch purchased courses
 5. Receive certificates upon course completion
 
+![WhatsApp Image 2024-07-12 at 01 13 27](https://github.com/user-attachments/assets/f1e05ac4-1e6f-40dc-961d-d691bbe80377)
+
+
+![WhatsApp Image 2024-07-10 at 12 56 12](https://github.com/user-attachments/assets/f644609c-dfea-41a1-9368-c88669e4f3ae)
+
+
+
+
 
 ## Getting Started
 
