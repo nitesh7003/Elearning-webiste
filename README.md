@@ -1,4 +1,3 @@
-![Screenshot (1)](https://github.com/user-attachments/assets/8107dd38-b6b4-47b9-9d6f-311cae4a2b05)# eLearning Management System
 
 This project is an eLearning Management System where users can purchase courses and access various functionalities. 
 
@@ -96,8 +95,6 @@ To get started with the project, clone the repository and follow the instruction
 ![Screenshot (10)](https://github.com/user-attachments/assets/09a70c30-2206-4a12-ad66-a89736fea260)
 
 
-
-![Screenshot (10)](https://github.com/user-attachments/assets/96def079-5b29-4f64-b2df-82f5e6c4c415)
 
 
 
