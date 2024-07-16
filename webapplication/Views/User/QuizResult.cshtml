@@ -1,0 +1,27 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model List<webapplication.Models.Quiz> 
+
+@{
+    ViewData["Title"] = "Quiz Result";
+}
+
+<h2>Quiz Result</h2>
+
+<p>You scored @ViewBag.Score out of @ViewBag.TotalQuestions</p>
+
+@foreach (var quiz in Model)
+{
+    <div>
+        <p><strong>Question:</strong> @quiz.Question</p> <!-- Assuming there's a Question property -->
+        <div>
+            <strong>Your Answer:</strong> @ViewBag.UserAnswers[quiz.Id]
+        </div>
+        <div>
+            <strong>Correct Answer:</strong> @ViewBag.CorrectOptions[quiz.Id]
+        </div>
+    </div>
+}

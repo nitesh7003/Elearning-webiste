@@ -1,0 +1,235 @@
+﻿@* @model IEnumerable<webapplication.Models.Topic>
+
+@{
+    var purchaseDate = DateTime.Now; 
+    var courseEndDate = purchaseDate.AddDays(30);
+    var currentDate = DateTime.Now;
+
+    var mainVideoTopicId = Model.FirstOrDefault()?.Id;
+
+ 
+    var mainVideoComments = ViewBag.Comments as IEnumerable<webapplication.Models.Comment>;
+    if (mainVideoComments != null && mainVideoTopicId.HasValue)
+    {
+        mainVideoComments = mainVideoComments.Where(c => c.TopicId == mainVideoTopicId.Value).ToList();
+    }
+    else
+    {
+        mainVideoComments = new List<webapplication.Models.Comment>();
+    }
+}
+
+<h2>Course Videos</h2>
+<div class="generate-certificate">
+    
+    
+        <div>
+         
+            <button class="btn btn-primary" asp-action="GenerateCertificate"asp-for="Certificate">Generate Certificate</button>
+        </div>
+    
+</div>
+
+<div class="course-videos">
+    <div class="main-video">
+        @foreach (var topic in Model.Take(1))
+        {
+            <div class="video-wrapper">
+                <h3>@topic.TopicName</h3>
+                <iframe id="mainVideo" src="@topic.VideoUrl" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="icon-bar">
+                    <div class="icon-item">
+                        <a href="/User/ViewQuizzes?topicId=@topic.Id">
+                            <i class="fas fa-question-circle"></i>
+                            <span>Quiz</span>
+                        </a>
+                    </div>
+                    <div class="icon-item">
+                        <i class="fas fa-comments"></i>
+                        <span>Comment</span>
+                    </div>
+                    <div class="icon-item">
+                        <i class="fas fa-tasks"></i>
+                        <span>Assignment</span>
+                    </div>
+                </div>
+                @if (currentDate > courseEndDate)
+                {
+                    <div class="expired-message">
+                        <p>This course has expired and is no longer available.</p>
+                    </div>
+                }
+            </div>
+        }
+    </div>
+    <div class="side-videos">
+        @foreach (var topic in Model)
+        {
+            <div class="video-item" onclick="switchToMainVideo('@topic.VideoUrl', @topic.Id)">
+                <div class="video-thumbnail">
+                    <img src="https://via.placeholder.com/150" alt="Video Thumbnail">
+                </div>
+                <div class="video-details">
+                    <h4>@topic.TopicName</h4>
+                    <p>Description or duration here...</p>
+                </div>
+             
+                @if (mainVideoTopicId == topic.Id && mainVideoComments.Any())
+                {
+                    <div class="comment-count">
+                        <span>@mainVideoComments.Count()</span>
+                    </div>
+                }
+            </div>
+        }
+    </div>
+</div>
+
+<div class="comments-section">
+    <h4>Add a Comment</h4>
+    <form asp-action="AddComment" method="post">
+        <div class="form-group">
+            <input type="hidden" name="topicId" value="@mainVideoTopicId" />
+            <textarea class="form-control" name="content" rows="3" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+
+<script>
+   
+    function switchToMainVideo(videoUrl, topicId) {
+        const mainVideo = document.getElementById('mainVideo');
+        mainVideo.src = videoUrl;
+
+        const topicIdInput = document.querySelector('input[name="topicId"]');
+        topicIdInput.value = topicId;
+
+       
+        const commentsSection = document.querySelector('.comments-section');
+        commentsSection.scrollIntoView({ behavior: 'smooth' });
+    }
+</script>
+ *@
+
+
+
+
+        @model IEnumerable<webapplication.Models.Topic>
+
+@{
+    var purchaseDate = DateTime.Now;  // Simulating purchase date
+    var courseEndDate = purchaseDate.AddDays(30); // Valid for 30 days from purchase
+    var currentDate = DateTime.Now;
+
+    // Get the topic ID of the main video
+    var mainVideoTopicId = Model.FirstOrDefault()?.Id;
+
+    // Assuming you have a way to get the courseId from the topics
+    var courseId = Model.FirstOrDefault()?.CourseId; // Update this line based on your actual model structure
+
+    // Filter comments for the main video
+    var mainVideoComments = ViewBag.Comments as IEnumerable<webapplication.Models.Comment>;
+    if (mainVideoComments != null && mainVideoTopicId.HasValue)
+    {
+        mainVideoComments = mainVideoComments.Where(c => c.TopicId == mainVideoTopicId.Value).ToList();
+    }
+    else
+    {
+        mainVideoComments = new List<webapplication.Models.Comment>();
+    }
+}
+
+<h2>Course Videos</h2>
+<@* div class="generate-certificate">
+    <div>
+        <button class="btn btn-primary" asp-action="GenerateCertificate" asp-route-courseId="@courseId">Generate Certificate</button>
+    </div>
+</div> *@
+ <form asp-action="GenerateCertificate" asp-controller="User" method="get">
+    <input type="hidden" name="courseId" value="@courseId" />
+    <button type="submit" class="btn btn-primary">Generate Certificate</button>
+</form>
+
+<div class="course-videos">
+    <div class="main-video">
+        @foreach (var topic in Model.Take(1))
+        {
+            <div class="video-wrapper">
+                <h3>@topic.TopicName</h3>
+                <iframe id="mainVideo" src="@topic.VideoUrl" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="icon-bar">
+                    <div class="icon-item">
+                        <a href="/User/ViewQuizzes?topicId=@topic.Id">
+                            <i class="fas fa-question-circle"></i>
+                            <span>Quiz</span>
+                        </a>
+                    </div>
+                    <div class="icon-item">
+                        <i class="fas fa-comments"></i>
+                        <span>Comment</span>
+                    </div>
+                    <div class="icon-item">
+                        <i class="fas fa-tasks"></i>
+                             <a asp-action="Assignments" class="btn btn-secondary">View Assignments</a>
+                        <span>Assignment</span>
+                    </div>
+                </div>
+                @if (currentDate > courseEndDate)
+                {
+                    <div class="expired-message">
+                        <p>This course has expired and is no longer available.</p>
+                    </div>
+                }
+            </div>
+        }
+    </div>
+    <div class="side-videos">
+        @foreach (var topic in Model)
+        {
+            <div class="video-item" onclick="switchToMainVideo('@topic.VideoUrl', @topic.Id)">
+                <div class="video-thumbnail">
+                    <img src="https://via.placeholder.com/150" alt="Video Thumbnail">
+                </div>
+                <div class="video-details">
+                    <h4>@topic.TopicName</h4>
+                    <p>Description or duration here...</p>
+                </div>
+                @* Check if topicId matches mainVideoTopicId to show comment count *@
+                @if (mainVideoTopicId == topic.Id && mainVideoComments.Any())
+                {
+                    <div class="comment-count">
+                        <span>@mainVideoComments.Count()</span>
+                    </div>
+                }
+            </div>
+        }
+    </div>
+</div>
+
+<div class="comments-section">
+    <h4>Add a Comment</h4>
+    <form asp-action="AddComment" method="post">
+        <div class="form-group">
+            <input type="hidden" name="topicId" value="@mainVideoTopicId" />
+            <textarea class="form-control" name="content" rows="3" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+
+<script>
+    // Function to switch main video
+    function switchToMainVideo(videoUrl, topicId) {
+        const mainVideo = document.getElementById('mainVideo');
+        mainVideo.src = videoUrl;
+
+        // Update the hidden input field for topicId in the comment form
+        const topicIdInput = document.querySelector('input[name="topicId"]');
+        topicIdInput.value = topicId;
+
+        // Optional: Scroll to the comments section when switching videos
+        const commentsSection = document.querySelector('.comments-section');
+        commentsSection.scrollIntoView({ behavior: 'smooth' });
+    }
+</script>

@@ -1,0 +1,497 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{09201711-B1EB-4AA9-B1E8-AE69EA89FB80}|webapplication\\webapplication.csproj|d:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09201711-B1EB-4AA9-B1E8-AE69EA89FB80}|webapplication\\webapplication.csproj|solutionrelative:webapplication\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09201711-B1EB-4AA9-B1E8-AE69EA89FB80}|webapplication\\webapplication.csproj|d:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09201711-B1EB-4AA9-B1E8-AE69EA89FB80}|webapplication\\webapplication.csproj|solutionrelative:webapplication\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09201711-B1EB-4AA9-B1E8-AE69EA89FB80}|webapplication\\webapplication.csproj|d:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09201711-B1EB-4AA9-B1E8-AE69EA89FB80}|webapplication\\webapplication.csproj|solutionrelative:webapplication\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09201711-B1EB-4AA9-B1E8-AE69EA89FB80}|webapplication\\webapplication.csproj|d:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\views\\user\\watchvideo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{09201711-B1EB-4AA9-B1E8-AE69EA89FB80}|webapplication\\webapplication.csproj|solutionrelative:webapplication\\views\\user\\watchvideo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09201711-B1EB-4AA9-B1E8-AE69EA89FB80}|webapplication\\webapplication.csproj|d:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\views\\user\\assignments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{09201711-B1EB-4AA9-B1E8-AE69EA89FB80}|webapplication\\webapplication.csproj|solutionrelative:webapplication\\views\\user\\assignments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09201711-B1EB-4AA9-B1E8-AE69EA89FB80}|webapplication\\webapplication.csproj|d:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09201711-B1EB-4AA9-B1E8-AE69EA89FB80}|webapplication\\webapplication.csproj|solutionrelative:webapplication\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09201711-B1EB-4AA9-B1E8-AE69EA89FB80}|webapplication\\webapplication.csproj|d:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\views\\admin\\assignments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{09201711-B1EB-4AA9-B1E8-AE69EA89FB80}|webapplication\\webapplication.csproj|solutionrelative:webapplication\\views\\admin\\assignments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09201711-B1EB-4AA9-B1E8-AE69EA89FB80}|webapplication\\webapplication.csproj|d:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\repositories\\adminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09201711-B1EB-4AA9-B1E8-AE69EA89FB80}|webapplication\\webapplication.csproj|solutionrelative:webapplication\\repositories\\adminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09201711-B1EB-4AA9-B1E8-AE69EA89FB80}|webapplication\\webapplication.csproj|d:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\repositories\\iadminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09201711-B1EB-4AA9-B1E8-AE69EA89FB80}|webapplication\\webapplication.csproj|solutionrelative:webapplication\\repositories\\iadminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09201711-B1EB-4AA9-B1E8-AE69EA89FB80}|webapplication\\webapplication.csproj|d:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\models\\assignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09201711-B1EB-4AA9-B1E8-AE69EA89FB80}|webapplication\\webapplication.csproj|solutionrelative:webapplication\\models\\assignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09201711-B1EB-4AA9-B1E8-AE69EA89FB80}|webapplication\\webapplication.csproj|d:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{09201711-B1EB-4AA9-B1E8-AE69EA89FB80}|webapplication\\webapplication.csproj|solutionrelative:webapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\Migrations\\20240714081109_Assignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:webapplication\\Migrations\\20240714081109_Assignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09201711-B1EB-4AA9-B1E8-AE69EA89FB80}|webapplication\\webapplication.csproj|d:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09201711-B1EB-4AA9-B1E8-AE69EA89FB80}|webapplication\\webapplication.csproj|solutionrelative:webapplication\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09201711-B1EB-4AA9-B1E8-AE69EA89FB80}|webapplication\\webapplication.csproj|d:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\models\\topic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09201711-B1EB-4AA9-B1E8-AE69EA89FB80}|webapplication\\webapplication.csproj|solutionrelative:webapplication\\models\\topic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09201711-B1EB-4AA9-B1E8-AE69EA89FB80}|webapplication\\webapplication.csproj|d:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\models\\quizviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09201711-B1EB-4AA9-B1E8-AE69EA89FB80}|webapplication\\webapplication.csproj|solutionrelative:webapplication\\models\\quizviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09201711-B1EB-4AA9-B1E8-AE69EA89FB80}|webapplication\\webapplication.csproj|d:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\models\\quiz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09201711-B1EB-4AA9-B1E8-AE69EA89FB80}|webapplication\\webapplication.csproj|solutionrelative:webapplication\\models\\quiz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09201711-B1EB-4AA9-B1E8-AE69EA89FB80}|webapplication\\webapplication.csproj|d:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\models\\courselistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09201711-B1EB-4AA9-B1E8-AE69EA89FB80}|webapplication\\webapplication.csproj|solutionrelative:webapplication\\models\\courselistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09201711-B1EB-4AA9-B1E8-AE69EA89FB80}|webapplication\\webapplication.csproj|d:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09201711-B1EB-4AA9-B1E8-AE69EA89FB80}|webapplication\\webapplication.csproj|solutionrelative:webapplication\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09201711-B1EB-4AA9-B1E8-AE69EA89FB80}|webapplication\\webapplication.csproj|d:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\wwwroot\\assignments\\71562970-67fb-4c37-88df-dfacb33c7f40_payslip (3).pdf||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{09201711-B1EB-4AA9-B1E8-AE69EA89FB80}|webapplication\\webapplication.csproj|solutionrelative:webapplication\\wwwroot\\assignments\\71562970-67fb-4c37-88df-dfacb33c7f40_payslip (3).pdf||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09201711-B1EB-4AA9-B1E8-AE69EA89FB80}|webapplication\\webapplication.csproj|d:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\views\\user\\certificate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{09201711-B1EB-4AA9-B1E8-AE69EA89FB80}|webapplication\\webapplication.csproj|solutionrelative:webapplication\\views\\user\\certificate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09201711-B1EB-4AA9-B1E8-AE69EA89FB80}|webapplication\\webapplication.csproj|d:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\wwwroot\\css\\certificate.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{09201711-B1EB-4AA9-B1E8-AE69EA89FB80}|webapplication\\webapplication.csproj|solutionrelative:webapplication\\wwwroot\\css\\certificate.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09201711-B1EB-4AA9-B1E8-AE69EA89FB80}|webapplication\\webapplication.csproj|d:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{09201711-B1EB-4AA9-B1E8-AE69EA89FB80}|webapplication\\webapplication.csproj|solutionrelative:webapplication\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09201711-B1EB-4AA9-B1E8-AE69EA89FB80}|webapplication\\webapplication.csproj|d:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\models\\certificateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09201711-B1EB-4AA9-B1E8-AE69EA89FB80}|webapplication\\webapplication.csproj|solutionrelative:webapplication\\models\\certificateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09201711-B1EB-4AA9-B1E8-AE69EA89FB80}|webapplication\\webapplication.csproj|d:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\views\\user\\quizresult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{09201711-B1EB-4AA9-B1E8-AE69EA89FB80}|webapplication\\webapplication.csproj|solutionrelative:webapplication\\views\\user\\quizresult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09201711-B1EB-4AA9-B1E8-AE69EA89FB80}|webapplication\\webapplication.csproj|d:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\models\\userquizresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09201711-B1EB-4AA9-B1E8-AE69EA89FB80}|webapplication\\webapplication.csproj|solutionrelative:webapplication\\models\\userquizresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09201711-B1EB-4AA9-B1E8-AE69EA89FB80}|webapplication\\webapplication.csproj|d:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\views\\user\\viewquizzes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{09201711-B1EB-4AA9-B1E8-AE69EA89FB80}|webapplication\\webapplication.csproj|solutionrelative:webapplication\\views\\user\\viewquizzes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09201711-B1EB-4AA9-B1E8-AE69EA89FB80}|webapplication\\webapplication.csproj|d:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{09201711-B1EB-4AA9-B1E8-AE69EA89FB80}|webapplication\\webapplication.csproj|solutionrelative:webapplication\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09201711-B1EB-4AA9-B1E8-AE69EA89FB80}|webapplication\\webapplication.csproj|d:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\migrations\\20240713143402_quixview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09201711-B1EB-4AA9-B1E8-AE69EA89FB80}|webapplication\\webapplication.csproj|solutionrelative:webapplication\\migrations\\20240713143402_quixview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09201711-B1EB-4AA9-B1E8-AE69EA89FB80}|webapplication\\webapplication.csproj|d:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\migrations\\20240713202322_m8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09201711-B1EB-4AA9-B1E8-AE69EA89FB80}|webapplication\\webapplication.csproj|solutionrelative:webapplication\\migrations\\20240713202322_m8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 23,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Assignments.cshtml",
+              "DocumentMoniker": "D:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\Views\\User\\Assignments.cshtml",
+              "RelativeDocumentMoniker": "webapplication\\Views\\User\\Assignments.cshtml",
+              "ToolTip": "D:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\Views\\User\\Assignments.cshtml",
+              "RelativeToolTip": "webapplication\\Views\\User\\Assignments.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAwCAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-14T08:30:44.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Assignments.cshtml",
+              "DocumentMoniker": "D:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\Views\\Admin\\Assignments.cshtml",
+              "RelativeDocumentMoniker": "webapplication\\Views\\Admin\\Assignments.cshtml",
+              "ToolTip": "D:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\Views\\Admin\\Assignments.cshtml",
+              "RelativeToolTip": "webapplication\\Views\\Admin\\Assignments.cshtml",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwB8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-14T08:26:08.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\appsettings.json",
+              "RelativeDocumentMoniker": "webapplication\\appsettings.json",
+              "ToolTip": "D:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\appsettings.json",
+              "RelativeToolTip": "webapplication\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-14T08:12:47.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20240714081109_Assignment.cs",
+              "DocumentMoniker": "D:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\Migrations\\20240714081109_Assignment.cs",
+              "RelativeDocumentMoniker": "webapplication\\Migrations\\20240714081109_Assignment.cs",
+              "ToolTip": "D:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\Migrations\\20240714081109_Assignment.cs",
+              "RelativeToolTip": "webapplication\\Migrations\\20240714081109_Assignment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T08:11:09.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IAdminRepository.cs",
+              "DocumentMoniker": "D:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\Repositories\\IAdminRepository.cs",
+              "RelativeDocumentMoniker": "webapplication\\Repositories\\IAdminRepository.cs",
+              "ToolTip": "D:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\Repositories\\IAdminRepository.cs",
+              "RelativeToolTip": "webapplication\\Repositories\\IAdminRepository.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAABIAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T08:06:14.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AdminRepository.cs",
+              "DocumentMoniker": "D:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\Repositories\\AdminRepository.cs",
+              "RelativeDocumentMoniker": "webapplication\\Repositories\\AdminRepository.cs",
+              "ToolTip": "D:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\Repositories\\AdminRepository.cs",
+              "RelativeToolTip": "webapplication\\Repositories\\AdminRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T08:03:38.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "20240713202322_m8.cs",
+              "DocumentMoniker": "D:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\Migrations\\20240713202322_m8.cs",
+              "RelativeDocumentMoniker": "webapplication\\Migrations\\20240713202322_m8.cs",
+              "ToolTip": "D:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\Migrations\\20240713202322_m8.cs",
+              "RelativeToolTip": "webapplication\\Migrations\\20240713202322_m8.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T20:23:22.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "QuizViewModel.cs",
+              "DocumentMoniker": "D:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\Models\\QuizViewModel.cs",
+              "RelativeDocumentMoniker": "webapplication\\Models\\QuizViewModel.cs",
+              "ToolTip": "D:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\Models\\QuizViewModel.cs",
+              "RelativeToolTip": "webapplication\\Models\\QuizViewModel.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAuwA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T20:15:20.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Quiz.cs",
+              "DocumentMoniker": "D:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\Models\\Quiz.cs",
+              "RelativeDocumentMoniker": "webapplication\\Models\\Quiz.cs",
+              "ToolTip": "D:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\Models\\Quiz.cs",
+              "RelativeToolTip": "webapplication\\Models\\Quiz.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAA4wA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T20:15:05.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CourseListViewModel.cs",
+              "DocumentMoniker": "D:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\Models\\CourseListViewModel.cs",
+              "RelativeDocumentMoniker": "webapplication\\Models\\CourseListViewModel.cs",
+              "ToolTip": "D:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\Models\\CourseListViewModel.cs",
+              "RelativeToolTip": "webapplication\\Models\\CourseListViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T20:14:51.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Course.cs",
+              "DocumentMoniker": "D:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "webapplication\\Models\\Course.cs",
+              "ToolTip": "D:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\Models\\Course.cs",
+              "RelativeToolTip": "webapplication\\Models\\Course.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T20:14:49.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Assignment.cs",
+              "DocumentMoniker": "D:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\Models\\Assignment.cs",
+              "RelativeDocumentMoniker": "webapplication\\Models\\Assignment.cs",
+              "ToolTip": "D:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\Models\\Assignment.cs",
+              "RelativeToolTip": "webapplication\\Models\\Assignment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T20:08:43.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "71562970-67fb-4c37-88df-dfacb33c7f40_PaySlip (3).pdf",
+              "DocumentMoniker": "D:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\wwwroot\\assignments\\71562970-67fb-4c37-88df-dfacb33c7f40_PaySlip (3).pdf",
+              "RelativeDocumentMoniker": "webapplication\\wwwroot\\assignments\\71562970-67fb-4c37-88df-dfacb33c7f40_PaySlip (3).pdf",
+              "ToolTip": "D:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\wwwroot\\assignments\\71562970-67fb-4c37-88df-dfacb33c7f40_PaySlip (3).pdf",
+              "RelativeToolTip": "webapplication\\wwwroot\\assignments\\71562970-67fb-4c37-88df-dfacb33c7f40_PaySlip (3).pdf",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABIAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|",
+              "WhenOpened": "2024-07-13T19:58:20.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "webapplication\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "webapplication\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-13T19:42:33.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "certificate.css",
+              "DocumentMoniker": "D:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\wwwroot\\css\\certificate.css",
+              "RelativeDocumentMoniker": "webapplication\\wwwroot\\css\\certificate.css",
+              "ToolTip": "D:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\wwwroot\\css\\certificate.css",
+              "RelativeToolTip": "webapplication\\wwwroot\\css\\certificate.css",
+              "ViewState": "AQIAAKQAAAAAAAAAAAAuwLsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-13T19:42:20.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Topic.cs",
+              "DocumentMoniker": "D:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\Models\\Topic.cs",
+              "RelativeDocumentMoniker": "webapplication\\Models\\Topic.cs",
+              "ToolTip": "D:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\Models\\Topic.cs",
+              "RelativeToolTip": "webapplication\\Models\\Topic.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T19:16:28.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Certificate.cshtml",
+              "DocumentMoniker": "D:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\Views\\User\\Certificate.cshtml",
+              "RelativeDocumentMoniker": "webapplication\\Views\\User\\Certificate.cshtml",
+              "ToolTip": "D:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\Views\\User\\Certificate.cshtml",
+              "RelativeToolTip": "webapplication\\Views\\User\\Certificate.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-13T19:12:41.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "webapplication\\Controllers\\AdminController.cs",
+              "ToolTip": "D:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "webapplication\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAANcAAAAAAAAAAAAswOAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T19:09:12.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CertificateViewModel.cs",
+              "DocumentMoniker": "D:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\Models\\CertificateViewModel.cs",
+              "RelativeDocumentMoniker": "webapplication\\Models\\CertificateViewModel.cs",
+              "ToolTip": "D:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\Models\\CertificateViewModel.cs",
+              "RelativeToolTip": "webapplication\\Models\\CertificateViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T19:03:44.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WatchVideo.cshtml",
+              "DocumentMoniker": "D:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\Views\\User\\WatchVideo.cshtml",
+              "RelativeDocumentMoniker": "webapplication\\Views\\User\\WatchVideo.cshtml",
+              "ToolTip": "D:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\Views\\User\\WatchVideo.cshtml",
+              "RelativeToolTip": "webapplication\\Views\\User\\WatchVideo.cshtml",
+              "ViewState": "AQIAAKgAAAAAAAAAAAAAALEAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-13T14:40:47.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "20240713143402_Quixview.cs",
+              "DocumentMoniker": "D:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\Migrations\\20240713143402_Quixview.cs",
+              "RelativeDocumentMoniker": "webapplication\\Migrations\\20240713143402_Quixview.cs",
+              "ToolTip": "D:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\Migrations\\20240713143402_Quixview.cs",
+              "RelativeToolTip": "webapplication\\Migrations\\20240713143402_Quixview.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T14:34:03.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "QuizResult.cshtml",
+              "DocumentMoniker": "D:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\Views\\User\\QuizResult.cshtml",
+              "RelativeDocumentMoniker": "webapplication\\Views\\User\\QuizResult.cshtml",
+              "ToolTip": "D:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\Views\\User\\QuizResult.cshtml",
+              "RelativeToolTip": "webapplication\\Views\\User\\QuizResult.cshtml",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAAAUAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-13T14:31:46.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ViewQuizzes.cshtml",
+              "DocumentMoniker": "D:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\Views\\User\\ViewQuizzes.cshtml",
+              "RelativeDocumentMoniker": "webapplication\\Views\\User\\ViewQuizzes.cshtml",
+              "ToolTip": "D:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\Views\\User\\ViewQuizzes.cshtml",
+              "RelativeToolTip": "webapplication\\Views\\User\\ViewQuizzes.cshtml",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-13T14:26:22.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "webapplication\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\Controllers\\UserController.cs",
+              "RelativeToolTip": "webapplication\\Controllers\\UserController.cs",
+              "ViewState": "AQIAALkBAAAAAAAAAAAAAOEBAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T14:19:12.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UserQuizResult.cs",
+              "DocumentMoniker": "D:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\Models\\UserQuizResult.cs",
+              "RelativeDocumentMoniker": "webapplication\\Models\\UserQuizResult.cs",
+              "ToolTip": "D:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\Models\\UserQuizResult.cs",
+              "RelativeToolTip": "webapplication\\Models\\UserQuizResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T14:14:46.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "webapplication\\Repositories\\UserRepository.cs",
+              "ToolTip": "D:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "webapplication\\Repositories\\UserRepository.cs",
+              "ViewState": "AQIAAK8AAAAAAAAAAAAAALsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T14:12:02.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "D:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\Repositories\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "webapplication\\Repositories\\IUserRepository.cs",
+              "ToolTip": "D:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\Repositories\\IUserRepository.cs",
+              "RelativeToolTip": "webapplication\\Repositories\\IUserRepository.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAAAB8AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T14:06:42.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "webapplication\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "webapplication\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAA+wBYAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T13:59:56.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "webapplication\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\downloads\\webapplication (13)\\webapplication (12)\\webapplication (5)\\webapplication\\webapplication\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "webapplication\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-13T13:54:47.067Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

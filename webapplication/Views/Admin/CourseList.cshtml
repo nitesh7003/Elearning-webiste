@@ -1,0 +1,34 @@
+﻿@model webapplication.Models.CourseListViewModel
+
+@{
+    ViewData["Title"] = "Course List";
+}
+
+<h2>Course List</h2>
+
+<form asp-action="CourseList" method="post">
+    <div class="form-group">
+        <label asp-for="SelectedCourseId" class="control-label">Select Course</label>
+        <select asp-for="SelectedCourseId" asp-items="@Model.Courses.Select(c => new SelectListItem { Value = c.Id.ToString(), Text = c.Name })" class="form-control">
+            <option value="">-- Select a Course --</option>
+        </select>
+        <span asp-validation-for="SelectedCourseId" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Get Topics" class="btn btn-primary" />
+    </div>
+</form>
+
+@if (Model.SelectedCourseId > 0)
+{
+    <h3>Course Details</h3>
+    <p>Number of Topics: @Model.TopicCount</p>
+
+    <h4>Topics</h4>
+    <ul>
+        @foreach (var topic in Model.Topics)
+        {
+            <li>@topic.TopicName - <a href="@topic.VideoUrl" target="_blank">Watch Video</a></li>
+        }
+    </ul>
+}

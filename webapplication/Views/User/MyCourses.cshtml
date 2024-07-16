@@ -1,0 +1,22 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model IEnumerable<webapplication.Models.Course>
+
+<h2>My Courses</h2>
+
+@foreach (var course in Model)
+{
+    <div>
+        <h3>@course.Name</h3>
+        <img src="@Url.Content("~/images/" + course.Thumbnail)" alt="@course.Name" class="course-thumbnail" />
+        <p>@course.Details</p>
+
+        <form asp-action="WatchVideo" method="get">
+            <input type="hidden" name="courseId" value="@course.Id" />
+            <button type="submit" class="btn btn-primary">Watch</button>
+        </form>
+    </div>
+}

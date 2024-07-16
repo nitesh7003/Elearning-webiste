@@ -1,0 +1,46 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model List<webapplication.Models.Quiz>
+
+@{
+    ViewData["Title"] = "Quiz";
+}
+
+<h2>Quiz</h2>
+
+@if (Model != null && Model.Any())
+{
+    <form asp-action="SubmitQuiz" method="post">
+        <input type="hidden" name="topicId" value="@ViewBag.TopicId" />
+        @foreach (var quiz in Model)
+        {
+            <div class="quiz-question">
+                <p>@quiz.Question</p>
+                <div>
+                    <input type="radio" id="option1_@quiz.Id" name="userAnswers[@quiz.Id]" value="@quiz.Option1" />
+                    <label for="option1_@quiz.Id">@quiz.Option1</label>
+                </div>
+                <div>
+                    <input type="radio" id="option2_@quiz.Id" name="userAnswers[@quiz.Id]" value="@quiz.Option2" />
+                    <label for="option2_@quiz.Id">@quiz.Option2</label>
+                </div>
+                <div>
+                    <input type="radio" id="option3_@quiz.Id" name="userAnswers[@quiz.Id]" value="@quiz.Option3" />
+                    <label for="option3_@quiz.Id">@quiz.Option3</label>
+                </div>
+                <div>
+                    <input type="radio" id="option4_@quiz.Id" name="userAnswers[@quiz.Id]" value="@quiz.Option4" />
+                    <label for="option4_@quiz.Id">@quiz.Option4</label>
+                </div>
+            </div>
+        }
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+}
+else
+{
+    <p>No quizzes available for this topic.</p>
+}

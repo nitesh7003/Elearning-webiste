@@ -1,0 +1,24 @@
+﻿@{
+    ViewBag.Title = "Payment";
+}
+
+<h2>Payment</h2>
+
+<form action="/User/PaymentSuccess" method="POST">
+    <script src="https://checkout.razorpay.com/v1/checkout.js"
+            data-key="@ViewBag.RazorpayKey"
+            data-amount="@ViewBag.Amount"
+            data-currency="INR"
+            data-order_id="@ViewBag.OrderId"
+            data-buttontext="Pay with Razorpay"
+            data-name="Your Website"
+            data-description="Test Transaction"
+            data-image="https://your-logo-url"
+            data-prefill.name="Customer Name"
+            data-prefill.email="customer@example.com"
+            data-theme.color="#F37254">
+    </script>
+    <input type="hidden" name="razorpay_payment_id" id="razorpay_payment_id">
+    <input type="hidden" name="razorpay_order_id" id="razorpay_order_id">
+    <input type="hidden" name="razorpay_signature" id="razorpay_signature">
+</form>

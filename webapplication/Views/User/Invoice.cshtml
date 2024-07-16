@@ -1,0 +1,163 @@
+﻿@model IEnumerable<webapplication.Models.CartItem>
+@{
+    ViewBag.Title = "Invoice";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" integrity="sha256-2XFplPlrFClt0bIdPgpz8H7ojnk10H69xRqd9+uTShA=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" integrity="sha384-TyP8xP9pMvUw4TqC9sU6wCSlh3ZNeI0BLb4TfhwIB6ZTzEbl2yxIBMKT4qZzlgj2" crossorigin="anonymous">
+    <style>
+        body {
+            margin-top: 20px;
+            background-color: #eee;
+        }
+
+        .card {
+            box-shadow: 0 20px 27px 0 rgb(0 0 0 / 5%);
+            border: 0;
+            border-radius: 1rem;
+            background-color: #fff;
+        }
+
+        .invoice-title h4 {
+            font-size: 1.5rem;
+        }
+
+        .font-size-15 {
+            font-size: 15px;
+        }
+
+        .font-size-16 {
+            font-size: 16px;
+        }
+
+        .table th, .table td {
+            vertical-align: middle;
+        }
+
+        .btn {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="invoice-title">
+                            <h4 class="float-end font-size-15">Invoice @ViewBag.OrderId <span class="badge bg-success font-size-12 ms-2">Paid</span></h4>
+                            <div class="mb-4">
+                                <h2 class="mb-1 text-muted">Your Website</h2>
+                            </div>
+                            <div class="text-muted">
+                                <p class="mb-1">Your Address</p>
+                                <p class="mb-1"><i class="uil uil-envelope-alt me-1"></i> your-email@example.com</p>
+                                <p><i class="uil uil-phone me-1"></i> Your Phone Number</p>
+                            </div>
+                        </div>
+
+                        <hr class="my-4">
+
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="text-muted">
+                                    <h5 class="font-size-16 mb-3">Billed To:</h5>
+                                    <h5 class="font-size-15 mb-2">Customer Name</h5>
+                                    <p class="mb-1">Customer Address</p>
+                                    <p class="mb-1">Customer Email</p>
+                                    <p>Customer Phone Number</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="text-muted text-sm-end">
+                                    <div>
+                                        <h5 class="font-size-15 mb-1">Invoice No:</h5>
+                                        <p>@ViewBag.OrderId</p>
+                                    </div>
+                                    <div class="mt-4">
+                                        <h5 class="font-size-15 mb-1">Invoice Date:</h5>
+                                        <p>@DateTime.Now.ToString("dd MMM, yyyy")</p>
+                                    </div>
+                                    <div class="mt-4">
+                                        <h5 class="font-size-15 mb-1">Order No:</h5>
+                                        <p>Order Number</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="py-2">
+                            <h5 class="font-size-15">Order Summary</h5>
+
+                            <div class="table-responsive">
+                                <table class="table align-middle table-nowrap table-centered mb-0">
+                                    <thead>
+                                        <tr>
+                                            <th style="width: 70px;">No.</th>
+                                            <th>Item</th>
+                                            <th>Price</th>
+                                            <th>Quantity</th>
+                                            <th class="text-end" style="width: 120px;">Total</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach (var item in Model.Select((cartItem, index) => new { cartItem, Index = index + 1 }))
+                                        {
+                                            <tr>
+                                                <th scope="row">@item.Index</th>
+                                                <td>
+                                                    <div>
+                                                        <h5 class="text-truncate font-size-14 mb-1">@item.cartItem.Course.Name</h5>
+                                                        <p class="text-muted mb-0">@item.cartItem.Course.Details</p>
+                                                    </div>
+                                                </td>
+                                                <td>@item.cartItem.Course.Price</td>
+                                                <td>@item.cartItem.Quantity</td>
+                                                <td class="text-end">@item.cartItem.Course.Price * @item.cartItem.Quantity</td>
+                                            </tr>
+                                        }
+                                        <tr>
+                                            <th scope="row" colspan="4" class="text-end">Sub Total</th>
+                                            <td class="text-end">@ViewBag.SubTotal</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row" colspan="4" class="border-0 text-end">Discount:</th>
+                                            <td class="border-0 text-end">- @ViewBag.Discount</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row" colspan="4" class="border-0 text-end">Shipping Charge:</th>
+                                            <td class="border-0 text-end">@ViewBag.ShippingCharge</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row" colspan="4" class="border-0 text-end">Tax</th>
+                                            <td class="border-0 text-end">@ViewBag.Tax</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row" colspan="4" class="border-0 text-end">Total</th>
+                                            <td class="border-0 text-end"><h4 class="m-0 fw-semibold">@ViewBag.Total</h4></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="d-print-none mt-4">
+                                <div class="float-end">
+                                    <a href="javascript:window.print()" class="btn btn-success me-1"><i class="fa fa-print"></i></a>
+                                    <a href="#" class="btn btn-primary w-md">Send</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- end col -->
+        </div>
+    </div>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js" integrity="sha384-1R3Fq7ZH4F7MDfC2j3U6wCL4SkmH5hD5zWo7As8NE3YcM1U1iT4i3PNe8irZoXbB" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+﻿@model IEnumerable<webapplication.Models.CartItem>
+
+<h2>Your Cart</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Course Name</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var cartItem in Model)
+        {
+            <tr>
+                <td>@cartItem.Course.Name</td>
+                <td>@cartItem.Course.Price</td>
+                <td>@cartItem.Quantity</td>
+                <td>
+                    <form method="post" asp-action="DeleteFromCart">
+                        <input type="hidden" name="courseId" value="@cartItem.CourseId" />
+                        <button type="submit" class="btn btn-danger">Delete</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+    <tfoot>
+        <tr>
+            <td><strong>Total</strong></td>
+            <td><strong>@ViewBag.TotalPrice</strong></td>
+            <td></td>
+            <td>
+                <form method="post" asp-action="MakePayment">
+                    <button type="submit" class="btn btn-success">Pay Now</button>
+                </form>
+            </td>
+        </tr>
+    </tfoot>
+</table>
